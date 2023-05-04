@@ -32,11 +32,19 @@ header{
 .navlist a{
     color: white;
     margin-left: 60px;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
 }
 .navlist a:hover{
     border-bottom: 2px solid white;
+}
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+
 }
