@@ -6,9 +6,6 @@
     list-style: none;
     text-decoration: none ;
 }
-body{
-    background-color: #12521d;
-}
 header{
     position: fixed;
     right: 0;
@@ -22,7 +19,7 @@ header{
     background: transparent;
 }
 .logo{
-    font-size: 30px;
+    font-size: 42px;
     font-weight: 700;
     color: white;
 }
@@ -51,7 +48,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #4d9559 0);
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d,28.53%,#133917 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -111,4 +108,38 @@ section{
 .hero-text a.ctaa i{
     vertical-align: middle;
     margin-right: 5px;
+}
+.icons{
+    position: absolute;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+.icons i{
+    display: block;
+    margin: 26px 0;
+    font-size: 32px;
+    color: white;
+    transition: all .50s ease;
+}
+.icons i:hover{
+    color: #4d9559;
+    transform: translateX(5px);
+}
+.scroll-down{
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+}
+.scroll-down i{
+    display: block;
+    padding: 12px;
+    font-size: 32px;
+    color: white;
+    background: #4d9559;
+    border-radius: 20px;
+    transition: all .50s ease;
+}
+.scroll-down i:hover{
+    transform: translateY(-5px);
 }
