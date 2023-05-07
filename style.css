@@ -19,7 +19,7 @@ header{
     background: transparent;
 }
 .logo{
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 700;
     color: white;
 }
@@ -29,7 +29,7 @@ header{
 .navlist a{
     color: white;
     margin-left: 60px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
@@ -39,7 +39,7 @@ header{
 }
 #menu-icon{
     color: white;
-    font-size: 35px;
+    font-size: 18px;
     z-index: 10001;
     cursor: pointer;
     display: none;
@@ -56,17 +56,17 @@ header{
     gap: 2rem;
 }
 section{
-    padding: 0 15%;
+    padding: 0 14%;
 }
 .hero-text h4{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     color: white;
     margin-bottom: 10px;
 }
 .hero-text h1{
     font-family: 'Permanent Marker', cursive;
-    font-size: 90px;
+    font-size: 72px;
     font-weight: 600;
     color: white;
     line-height: 1;
@@ -74,7 +74,7 @@ section{
 }
 .hero-text p{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.9;
     margin-bottom: 40px;
 }
@@ -87,9 +87,8 @@ section{
     color: white;
     background: #4d9559;
     border: 1px solid transparent;
-    padding: 12px 30px;
-    margin-right: 8px;
-    font-size: 24px;
+    padding: 12px 18px;
+    font-size: 14px;
     font-weight: 300;
     border-radius: 30px;
     text-transform: uppercase;
@@ -118,7 +117,7 @@ section{
 .icons i{
     display: block;
     margin: 26px 0;
-    font-size: 32px;
+    font-size: 24px;
     color: white;
     transition: all .50s ease;
 }
@@ -134,7 +133,7 @@ section{
 .scroll-down i{
     display: block;
     padding: 12px;
-    font-size: 32px;
+    font-size: 18px;
     color: white;
     background: #4d9559;
     border-radius: 20px;
