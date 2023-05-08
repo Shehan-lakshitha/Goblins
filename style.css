@@ -180,5 +180,65 @@ section{
 }
 
 @media (max-width: 1195px){
-    
+    section{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .hero-text{
+        padding-top: 115px;
+    }
+    .hero-img{
+        text-align: center;
+    }
+    .hero-img img{
+        width: 560px;
+        height: auto;
+    }
+    .hero{
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .icons{
+        display: none;
+    }
+    .scroll-down{
+        display: none;
+    }
+}
+
+@media (max-width: 990px){
+    #menu-icon{
+        display: block;
+        font-size: 48px;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 30vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        flex-direction: column;
+        padding: 30px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        display: block;
+        margin: 20px 0;
+        margin-left: 10px;
+    }
+    .navlist.open{
+        right: 0;
+    }
+}
+
+@media (max-width: 680px){
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
 }
