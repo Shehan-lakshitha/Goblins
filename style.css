@@ -172,7 +172,7 @@ section{
     }
     .hero h1{
         font-size: 75px;
-        padding: 0 0 30%;
+        padding: 0 0;
     }
     .hero-text h5{
         margin-bottom: 25px;
